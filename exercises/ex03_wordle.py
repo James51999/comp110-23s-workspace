@@ -40,7 +40,7 @@ def input_guess(expected_length: int) -> str:
 
 def main() -> None:
     """The entrypoint of the program and main game loop."""
-    secret_word: str = "codes"
+    secret_word: str = "baits"
     turn: int = 1
     #iterating through the turns and calling the other funtions writen above to print feedback on the users guesses
     while (turn <= 6):
